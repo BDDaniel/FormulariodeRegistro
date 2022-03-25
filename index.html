@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registro</title>
+		<link  rel="icon"   href="images/icono.png"/>
+		<link rel="stylesheet" type="text/css" href="resources/style.css">
+		<script src="resources/index.js"></script>
+	</head>
+
+	<body id="cuerpo">
+		<div id="contenedor">
+		  	<div id="encabezado">Formulario de registro</div>
+		  	<div id="formulario">
+				<label><br><br>&nbsp;&nbsp;Nombre:&nbsp;&nbsp;</label><br><br>
+				<input id="nombre" type="text" placeholder="Ingrese el nombre"><br>
+				<button id="registrar" onclick="registrar()" >Registrar</button><br>
+				<label><br>&nbsp;&nbsp;Apellido:&nbsp;&nbsp;</label><br>
+				<input id="apellido" type="text" placeholder="Ingrese el apellido"><br>
+				<button id="descargartabla1" onclick="tableToExcel('table1', 'Tabla 1')" value="Export to Excel">Descargar Tabla 1</button>
+				<button id="descargartabla2" onclick="tableToExcel('table2', 'Tabla 2')" value="Export to Excel">Descargar Tabla 2</button>
+				<button id="descargartabla3" onclick="tableToExcel('table3', 'Tabla 3')" value="Export to Excel">Descargar Tabla 3</button><br>
+				<label><br>&nbsp;&nbsp;Dirección:&nbsp;&nbsp;</label><br>
+				<input id="direccion" type="text" placeholder="Ingrese la dirección"><br>
+				<button id="limpiar" onclick="limpiar()" >Limpiar</button>
+				<a href="index.html"><input id="borrar" type="button" value="Borrar"></a><br>
+				<label><br>&nbsp;&nbsp;Identificación:&nbsp;&nbsp;</label><br>
+				<input id="identificacion" type="text" placeholder="Ingrese la identificación" onkeypress="return valideKey(event);"><br>
+			</div>
+		  	<div id="contenido">
+				<div id="tabla1">
+					<table id="table1" border="1">
+						<thead>
+							<th>Identificacion</th><th>Nombre</th><th>Apellido</th><th>Direccion</th>
+						</thead>
+						<tbody id="usuarios1"></tbody>
+					</table>
+				</div>
+				<div id="tabla2">
+					<table id="table2" border="1">
+						<thead>
+							<th>Identificacion</th><th>Nombre</th><th>Apellido</th><th>Direccion</th>
+						</thead>
+						<tbody id="usuarios2"></tbody>
+					</table>
+				</div>
+				<div id="tabla3">
+					<table id="table3" border="1">
+						<thead>
+							<th>Identificacion</th><th>Nombre</th><th>Apellido</th><th>Direccion</th>
+						</thead>
+						<tbody id="usuarios3"></tbody>
+					</table>
+				</div>
+			</div>
+        </div>
+	</body>
+</html>

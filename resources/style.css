@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cuerpo {
+	margin: 0px;
+}
+
+#contenedor {
+    background-image: url("../images/fondo.jpg");
+    position: absolute;
+    height: 969px;
+    width: 1920px;
+}
+
+#encabezado {
+	font-family: "Times New Roman";
+	font-size: 60px;
+	text-align: center;
+	line-height: 150px;
+	font-weight: bold;
+	position: absolute;
+	height: 150px;
+	width: 1200px;
+	left: 360px;
+	top: 20px;
+}
+
+#formulario {
+	font-family: "Times New Roman";
+	font-size: 20px;
+	position: absolute;
+	height: 320px;
+	width: 800px;
+	left: 560px;
+	top: 200px;
+}
+
+label {
+	position: absolute;
+	font-weight: bold;
+	left: 50px;
+}
+
+input {
+	position: absolute;
+	left: 190px
+}
+
+#limpiar {
+	position: absolute;
+	left: 500px
+}
+
+#borrar {
+	position: absolute;
+	left: 633px
+}
+
+#registrar {
+	position: absolute;
+	left: 555px
+}
+
+#descargartabla1 {
+	position: absolute;
+	left: 400px
+}
+
+#descargartabla2 {
+	position: absolute;
+	left: 530px
+}
+
+#descargartabla3 {
+	position: absolute;
+	left: 660px
+}
+
+
+#contenido {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	height: 400px;
+	width: 1550px;
+	left: 185px;
+	top: 550px;
+}
+
+#tabla1 {
+	font-family: "Times New Roman";
+	font-size: 24px;;
+	text-align: center;
+	position: absolute;
+	height: 400px;
+	width: 437.77px;
+	left: 50px;
+	top: 0px;
+}
+
+#tabla2 {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	height: 400px;
+	width: 437.77px;
+	left: 550px;
+	top: 0px;
+}
+
+#tabla3 {
+	font-family: "Times New Roman";
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	height: 400px;
+	width: 437.77px;
+	left: 1050px;
+	top: 0px;
+}
